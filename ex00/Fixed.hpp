@@ -6,7 +6,7 @@
 /*   By: erigolon <erigolon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/04 10:31:08 by erigolon          #+#    #+#             */
-/*   Updated: 2024/10/04 11:52:31 by erigolon         ###   ########.fr       */
+/*   Updated: 2024/10/04 12:16:16 by erigolon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ class Fixed
 {
 private:
 
-	int					_number;
-	static const int	_fractBits = 8;
+	int					_fp_number;
+	static const int	_fract = 8;
 	
 public:
 
